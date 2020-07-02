@@ -30,7 +30,7 @@ Group |Целое число | до 2^31 - 1  |  Красно-чёрное де�
 3. [Красно-чёрное дерево] - Поисковая структура для поля Group. В качестве отношения порядка используется стандартный порядок на числовой прямой. В связи с большим количество повторений среди полей Group, каждый лист Красно-чёрного дерева содержит свою копию структур (1), (2) совпадающих по полю Group. Исходный код лежит в файлах RedBlackTree..
 
 Схема взаимодействия данных внутри программы:
-![Image alt](https://sun1-23.userapi.com/2qI0G7jY_KO7Q7apvbjtjGQnqVU0nVmwEQTp5A/bqMGt8Uo6es.jpg)
+![Image alt](https://sun1-30.userapi.com/cjPpeuN1QvkNWHd4NSTwP2dDy3zihbUYbHVMdA/EoppGawrCJM.jpg)
 
 # Синтаксис языка запросов
 
@@ -80,7 +80,7 @@ Group |Целое число | до 2^31 - 1  |  Красно-чёрное де�
 ___
 # DBMS with SQL similar query language
 
-This is a training project to create a DBMS with SQL similar query language. It was created using the C++ with using optimizing data structures for accelerating searching/inserting/deleting data operations in the database.
+This is a training project to create a DBMS with SQL similar query language, using the C++ with optimizing data structures for accelerating searching/inserting/deleting data operations in the database.
 
 # Launch
 
@@ -106,7 +106,7 @@ Group | Integer | up to 2 ^ 31 - 1 |  Red–black tree (3) |
 3. [Red-black tree] - Search structure for the Group field. As the order relation, the standard order on the number line is used. Due to the large number of repetitions among the Group fields, each leaf of the Red-Black Tree contains its own copy of structures (1), (2) with the same value of Group field. The source code is in the RedBlackTree files ..
 
 The scheme of data interaction within the program:
-![Image alt](https://sun1-23.userapi.com/2qI0G7jY_KO7Q7apvbjtjGQnqVU0nVmwEQTp5A/bqMGt8Uo6es.jpg)
+![Image alt](https://sun1-30.userapi.com/cjPpeuN1QvkNWHd4NSTwP2dDy3zihbUYbHVMdA/EoppGawrCJM.jpg)
 
 # Query language syntax
 
@@ -143,7 +143,7 @@ The scheme of data interaction within the program:
 6. The command delimiter is “**;**”, the command delimiter is a space, a tab character, and a newline.
 
 
-# Todos
+# Goals
 
 1. Fix minor bugs.
 2. Add the ability to display columns in the specified order, for example, group, name - display only the third and first fields. Example: **select phone, name where group = 208 and phone > 100000;**

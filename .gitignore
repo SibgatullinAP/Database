@@ -36,6 +36,9 @@ Thumbs.db
 /.qmake.stash
 CMakeListFiles/
 cmake_install.cmake
+/
+.gitignore
+build/
 
 # qtcreator generated files
 *.pro.user*
